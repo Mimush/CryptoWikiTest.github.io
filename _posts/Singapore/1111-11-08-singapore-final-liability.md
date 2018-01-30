@@ -7,11 +7,14 @@ category: singapore
 comments: true
 ---
 
-There has been no regulation explicitly targeting smart contracts in Singapore so far. However, regulation of smart contracts in Singapore will likely fall to the jurisdiction of the [Electronic Transactions Act](https://sso.agc.gov.sg/Act/ETA2010#P1I-), which will probably be the reference authority for this topic, as its language is robust enough to encompass blockchain technologies. It deserves to be read in full.
-   * In Part II, section 6, it was declared that “information shall not be denied legal effect, validity or enforceability solely on the ground that it is in the form of an electronic record.” 
-   * In Part II, Section 11, it was declared that “it is declared that in the context of the formation of contracts, an offer and the acceptance of an offer may be expressed by means of electronic communications. Where an electronic communication is used in the formation of a contract, that contract shall not be denied validity or enforceability solely on the ground that an electronic communication was used for that purpose. 
-   * In Part II, section 15, it was declared that “A contract formed by the interaction of an automated message system and a natural person, or by the interaction of automated message systems, shall not be denied validity or enforceability solely on the ground that no natural person reviewed or intervened in each of the individual actions carried out by the automated message systems or the resulting contract.” 
-   * If these clauses apply to smart contracts, which seems likely as of Dec 18 2017 (Singapore has been quite open and supportive of changes in FinTech and would likely not seek to over-regulate smart contracts), then smart contracts may just be legally binding contracts like all other electronic contracts. Singapore has not yet issues guidance to make this specific, as of Dec 18, 2017. 
+There has been no law on smart contract liability, but precedents from the Electronic Transactions Act exist which may steer the direction of smart contract regulation in Singapore.
+
+In Part VI Section 26, the liability of network service providers for the contents of messages/contracts sent across their services were limited. The law states that “network service providers shall not be subject to any civil or criminal liability under any rule of law in respect of third-party material in the form of electronic records to which he merely provides access if such liability is founded on” only the content of the messages. This is a clear precedent for the clause that blockchain network and operators would not be held liable if something goes wrong with a smart contract, only the counterparties involved.
+
+It is unclear whether the smart contract designer would also suffer some liability. This is an issue that is still yet to be decided in courts and guidance. (The author believes that if the rules of the smart contract are clear and explicit to all parties, and all parties agree to said rules, and those rules are indeed the rules that get executed, then the smart contract designer’s liability would be small at most).
+
+For reference, it is worth referring to current Singapore laws regarding breach of contracts dispute arbitration, for example, as explained [here](https://singaporelegaladvice.com/law-articles/breach-of-contract-in-singapore/), because at least in the short run smart contracts will likely be legally considered in the same way as other electronic contracts.
+
 
 ### Sources:
    * [Electronic Transactions Act](https://sso.agc.gov.sg/Act/ETA2010#P1I-)
